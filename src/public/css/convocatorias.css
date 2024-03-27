@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: muli;
+    font-size: 62.5%;
+}
+
+main .main-nav{
+
+    width: 80vw;
+    height: 80px;
+    background-color: rgb(243, 222, 30);
+    border-radius: 15px;
+}
+
+main .main-nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-left: 150px;
+   margin-top:  150px;
+}
+
+h3{
+    font-size: 2rem;
+    color: black;
+}
+
+main figure img {
+
+    width:80% ;
+    display: flex;
+    margin:auto;
+
+
+}

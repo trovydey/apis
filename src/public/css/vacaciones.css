@@ -1,0 +1,361 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: muli,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+main .main-nav{
+
+    width: 70%;
+    height: 80px;
+    margin: auto;
+    background-color: #a3bd31;
+    border-radius: 15px;
+}
+
+main .main-nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+  
+   margin-top:  150px;
+}
+
+h3{
+    font-size: 3rem;
+    color: white;
+    
+}
+
+.etiqueta2 {
+     color: black;
+     margin-top: 10px;
+}
+
+.container-colaborador{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    place-self:center;
+    justify-items: center;
+    margin: auto;
+
+    
+    
+}
+
+section .datos-colaborador{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;  
+
+}
+
+section .datos-colaborador div{
+    margin-top: 50px;
+    width: 100%;
+    font-family: muli,sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    font-style: normal;
+    color: rgb(49, 49, 138);
+    
+
+}
+
+section .img-antiguedad{
+width: 80%;
+margin: auto;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+
+section .img-antiguedad img{
+    width: 100%;
+    margin: auto;
+}
+
+.caja {
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.contenedor-caja{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-content: center;
+    
+}
+
+section .img-antiguedad .caja .anos0 {
+    position: absolute;
+    display: inline-block;
+    font-size: 4rem;
+    font-weight: bold;
+    z-index: 5;
+    width: 100%;
+    color: black;
+    text-align: center;
+    margin-bottom: 35px;
+    
+    
+    
+
+}
+
+
+section .img-antiguedad .caja .anos1 {
+    position: absolute;
+    display: inline-block;
+    font-size: 4rem;
+    font-weight: bold;
+    z-index: 5;
+    width: 100%;
+    color: black;
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+section .img-antiguedad .igual{
+    font-family: muli,sans-serif;
+    font-size: 13rem;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 19px;
+    color: #a3bd31;
+}
+
+figure h2{
+    
+    display: block;
+    font-weight: 500;
+    font-size: 3rem;
+ 
+
+}
+
+.boton {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    margin: auto;
+    
+}
+
+
+.btnsolicitud {
+    margin-right: 30px;
+    width: 140px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    background-color: #a3bd31;
+    border: none;
+    border-radius: 8px;
+}
+
+.btnsolicitud {
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnsolicitud:hover  {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+section .container-dias {
+
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+   
+    
+}
+
+section .dias-p{
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    font-weight:500;
+    font-size: 2.4rem;
+    border: 1px solid #a3bd31;
+    margin-right: 110px;
+    border-radius:8px ; 
+    margin: auto;
+    
+}
+
+section .dias-p .dias-s h1{
+margin: auto;
+
+}
+
+section .dias-s{
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    font-weight: 800;
+    font-size: 2.4rem;
+    border: 1px solid #a3bd31;
+    border-radius:8px ;
+    margin: auto;
+}
+
+
+
+
+
+
+
+section .container-table{
+    width: 100%;
+    display: flex;
+    place-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+
+   
+    
+}
+
+section th {
+     border: 1px black solid;
+}
+
+section .tabla-vacaciones thead{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+       
+}
+
+section .container-table .tabla-vacaciones td{
+    width: 200px;
+    padding-top: 10px;
+    
+    
+}
+
+.td-color{
+    color: black;
+
+}
+section .tabla-vacaciones tr{
+    font-size: 1rem;
+    color: rgb(131, 128, 128);
+    border: 1px black solid
+}
+
+/* Modal Formulñario  Solicitud de vacaciones */
+
+.modal { 
+    display: none;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90vh;
+    margin-top: 100px;
+    overflow: auto;
+    background-color: rgb(0,0,0,0.8);
+    
+    
+}
+
+form {
+     width: 60%;
+     display: flex;
+     flex-direction: column;
+     place-items: center;    
+     margin: auto;
+}
+
+form { 
+    margin-top: 48px;
+}
+
+section input[type='date'],input[type='number'], #daysDiscount , #motivo1, #date {
+    background-color: white;
+    width: 300px;
+    height: 40px;
+    font-size: 3rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    border: solid 1px  #a3bd31;
+    margin-bottom: 8px;
+}
+
+section input[type='text'] , #fecha_fin{
+    background-color: white;
+    width: 300px;
+    height: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    border: solid 1px  #a3bd31;
+    margin-bottom: 8px;
+
+}
+
+
+section label {
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #a3bd31;
+    
+}
+
+.guardarbtn , .cancelbtn {
+    width: 150px;
+    height: 30px;
+    background-color: #a3bd31;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.4;
+    font-weight: bold;
+    justify-items: center;
+    margin-bottom: 8px;
+    
+}
+
+
+.cancelbtn{
+    background-color: #eb1c2d;
+}

@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: muli,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.calendario {
+    margin-top: 150px;
+}
+
+.main-nav{
+
+    width: 80%;
+    height: 80px;
+    background-color: #eb1c2d;
+    border-radius: 15px;
+    
+}
+
+main .main-nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: auto;
+}
+
+h3{
+    font-size: 2rem;
+    color: white;
+}
+
+main figure img {
+
+    width:100% ;
+    display: flex;
+    margin-left: 00px;
+
+
+}

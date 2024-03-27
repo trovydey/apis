@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%;
+    font-family: muli,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+/* formulario datos generales */
+
+
+.etiqueta2 {
+    font-weight: 700;
+    font-size: large;
+    font-family: Mulli,sans-serif;
+}
+
+.step-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .step2 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+   
+  
+  }
+  .step2 img{
+    width: 100%;
+  }
+  
+  .container-step2 {
+    margin-top: 30px;
+    width: 80%;
+    position: absolute;
+  }
+  
+  .container-step2 .datos {
+    font-size: 1.8rem;
+    margin-top: 16px;
+    color: #282a67;
+     
+  } 
+
+  
+  .container-step2 .datos2 {
+    font-size: 1.4rem;
+    margin-top: 16px;
+    color: #eb1c2d;
+  }
+
+  .container-step2 .datos .tamaño2{
+      width: 5px;
+      border: none;
+      background-color: white;
+      color: white;
+  }
+  .container-step2 form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+  
+  .hijos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .hijos .tamaño{
+      width: 30px;
+      margin-bottom: auto;
+  }
+
+  
+  
+  form .bloke {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #282a67;
+  }
+  form .bloke2 {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  form .hijos1 {
+    /* margin-top: 8px; */
+    /* margin-bottom: 8px; */
+    font-size: 1.6rem;
+    color: #282a67;
+  }
+  
+  .datos-medicos {
+    text-align: center;
+    border-bottom:solid 2px #eee9e9;
+    border-left:solid 2px #eee9e9;
+  }
+  
+  .datos-medicos2 {
+    
+    border-bottom:solid 2px #eee9e9;
+    
+  }
+  
+  .fecha {
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  
+  .texto {
+    border: none;
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+  
+  }
+  
+  .option{
+    width: 180px;
+    height: 30px;
+    border: none;
+    font-size: 2rem;
+    font-weight: 700;
+    border: solid 2px rgb(219, 218, 218);
+    border-radius: 8px;
+  }
+  
+  .conyugue {
+    width: 250px;
+    border-bottom: solid 2px #78787a;
+    
+  } 
+  
+  
+  
+  .tabla-medicina {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #282a67;
+  }
+
+  button {
+      width: 80px;
+      height: 20px;
+      background-color: #eb1c2d;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      margin-top: 30px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }

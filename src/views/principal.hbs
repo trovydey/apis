@@ -1,0 +1,117 @@
+
+    
+    <link rel="stylesheet" href="/css/menuPrincipal.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/cobranza.css">
+
+{{>navigation}}
+
+<body>
+
+    <div class="content" >
+        <div class="sub">
+            <div class="cont-sub" >
+                    <form action="/principal" method="post">
+                    <label class="label" for="">Numero de crédito</label>                    
+                    <input type="number" name="credito" required>
+                    <button class="btn-credito">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <section class="content-main">
+        <fieldset class="data-zell "> 
+                <legend>Información de cliente</legend> 
+                <div class="sub-data-zell">
+                    <form  class="info-client" method="post" action="">
+                        <input type="hidden" name="nombre" value="{{Nombre}}">
+                        <div>        
+                        <p>ID CLIENTE:</p>
+                        <input type="text" value="{{id}}" name="id"  >
+                        {{!-- <input name=""></input>  --}}
+                    
+                        </div>
+                        
+                        <div>
+                            <p>ID CREDITO:</p>
+                            <input type="text" name="idcredito" value="{{Credito1}}">
+                        </div>
+                        <div>
+                            <p>NOMBRE:</p>
+                            <input name="nc" value="{{Nc}}" >
+                        </div>
+                        <div>
+                            <p>CLABE STP:</p>
+                            <input name="stp" value="{{stp}}">
+                        </div>
+                        <div>
+                            <p>CIE:</p>
+                            <input name="cie" value="{{cie}}">
+                        </div>
+                        <div>
+                            <p>SALDO TOTAL:</p>
+                            
+                            <label for="stc">{{SaldoTotaldelCredito}}</label> 
+                        </div>
+                        <div>
+                            <p>SALDO VENCIDO:</p>
+                            
+                            <label for="stvc">{{SaldoTotalVencidodelCredito}}</label>
+                        </div>
+                        <div>
+                            <p>CUOTA:</p>
+                           
+                            <label for="cuota">{{Cuota}}</label>
+                        </div>
+                        
+                        <div>
+                            <p>MONTO</p>
+                            <input type="number" name="monto" required>
+                        </div>
+                        <div>
+
+                        </div>
+                    
+                        <div>
+                            <p>TELEFONO:</p>
+                            <input class="datos" name="telefono" type="tel" maxlength="10" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" value="{{telefono}}" required>
+                        </div>
+                        <div>
+                            <p>Correo:</p>
+                            <input type="email" name="correo" id="email" placeholder="email@creditofacil.com.mx" value="{{correo}}" > 
+                            <h2 id="result"></h2>
+                        </div>
+                        <div>
+                            <p>TELEFONO ASESOR:</p>
+                            <input class="datos" name="telacesor" type="tel" maxlength="10" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+                        </div>
+
+                            <div class="content-botones">
+                                <div class="sub-botones">
+                                
+                                    <input type="submit" class="bt-borde" onclick=this.form.action="/sms" value="SMS">
+                                
+                                    <input type="submit" class="bt-borde" type="button" onclick=this.form.action="/watsapp" value="WATSAPP">
+                                
+                                    <input type="submit" class="bt-borde" type="button" onclick=this.form.action="/correo" value="CORREO">
+                                                           
+                                </div>
+                            </div>    
+                
+                    </form>  
+                </div>
+                
+        
+
+                            
+        </fieldset>
+                    
+    </section>
+  
+   <script src="/js/validacionPerfil.js"></script>
+   
+
+    
+</body>
+

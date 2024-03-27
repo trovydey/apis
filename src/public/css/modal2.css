@@ -1,0 +1,219 @@
+.modal2{
+     display: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90vh;
+    margin-top:98px;
+    background-color: rgb(0,0,0,0.8);
+}
+
+/* 
+.modal-exit:link, .modal-exit:active, .modal-exit:visited, .modal-exit:hover {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #F92A2A; 
+}
+
+
+
+
+.modal {
+    --bs-modal-zindex: 1055;
+    --bs-modal-width: 500px;
+    --bs-modal-padding: 1rem;
+    --bs-modal-margin: 0.5rem;
+    --bs-modal-color:#fff ;
+    --bs-modal-bg:#fff;
+    --bs-modal-border-color:rgba(0, 0, 0, 0.175;
+    --bs-modal-border-width: 1px;
+    --bs-modal-border-radius: 0.5rem;
+    --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(33, 37, 41), 0.075);
+    --bs-modal-inner-border-radius: calc(0.5rem) - (1px);
+    --bs-modal-header-padding-x: 1rem;
+    --bs-modal-header-padding-y: 1rem;
+    --bs-modal-header-padding: 1rem 1rem;
+    --bs-modal-header-border-color:#495057;
+    --bs-modal-header-border-width: 1px;
+    --bs-modal-title-line-height: 1.5;
+    --bs-modal-footer-gap: 0.5rem;
+    --bs-modal-footer-bg: ;
+    --bs-modal-footer-border-color:#495057;
+    --bs-modal-footer-border-width:1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--bs-modal-zindex);
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    background-color: rgb(0,0,0,0.8);
+    margin: auto;
+
+  }
+
+  .modal3 {
+    --bs-modal-zindex: 1055;
+    --bs-modal-width: 500px;
+    --bs-modal-padding: 1rem;
+    --bs-modal-margin: 0.5rem;
+    --bs-modal-color:#fff ;
+    --bs-modal-bg:#fff;
+    --bs-modal-border-color:rgba(0, 0, 0, 0.175;
+    --bs-modal-border-width: 1px;
+    --bs-modal-border-radius: 0.5rem;
+    --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(33, 37, 41), 0.075);
+    --bs-modal-inner-border-radius: calc(0.5rem) - (1px);
+    --bs-modal-header-padding-x: 1rem;
+    --bs-modal-header-padding-y: 1rem;
+    --bs-modal-header-padding: 1rem 1rem;
+    --bs-modal-header-border-color:#495057;
+    --bs-modal-header-border-width: 1px;
+    --bs-modal-title-line-height: 1.5;
+    --bs-modal-footer-gap: 0.5rem;
+    --bs-modal-footer-bg: ;
+    --bs-modal-footer-border-color:#495057;
+    --bs-modal-footer-border-width:1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--bs-modal-zindex);
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    background-color: rgb(0,0,0,0.8);
+    margin: auto;
+
+  }
+  
+
+  .sub-modal{
+    width: 100%;
+    height: 100vh;
+    pointer-events: auto;
+    outline: 0;
+    display: flex;
+    place-content: center;
+  }
+   .modal-dialog {
+    width: 50%;
+    height: 80vh;
+     margin: auto;
+    }
+  
+  .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius:0.5rem;
+    outline: 0;
+  }
+  
+  .modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+  }
+  
+  .modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 1rem;
+    border-bottom:1px solid #dee2e6;
+    border-top-left-radius:0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  .modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+    color: black;
+  }
+  .modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding:1rem;
+  }
+
+  .modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+    border: none;
+    font-size:3rem;
+    font-weight: bold;
+    background-color: #fff;
+    cursor: pointer;
+} */
+
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .7s;
+    transition: all .7s;
+  }
+  /* Modal container gets target and it is shown and background modal too*/
+   .modal:target, .modal:target .modal-bg {
+      display: block;
+      z-index: 100;
+      opacity: 1;
+      visibility: visible; 
+  }
+  /* Background modal*/
+    .modal-bg:active, .modal-bg:hover, .modal-bg:visited, .modal-bg:link {
+      text-decoration: none;
+      visibility: hidden;
+      opacity: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      -webkit-transition: all .7s;
+      transition: all .7s;
+      cursor: default;
+  }
+   /* Background modal overlaps to container*/
+    .modal:target .modal-bg {
+      z-index: 200; 
+  }
+  /* Modal content or body*/
+
+
+  /* Modal is closed at lose target*/
+    .modal-exit:link, .modal-exit:active, .modal-exit:visited, .modal-exit:hover {
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      font-size: 1.7rem;
+      text-decoration: none;
+      color: #F92A2A; 
+  }

@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: muli,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+main .main-nav{
+    margin: auto;
+    width: 74%;
+    height: 80px;
+    background-color: #ba007c;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav {
+    margin-top: 170px;
+    
+}
+
+h3{
+    font-size: 3rem;
+    color: white;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+      
+}
+
+.costalito {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.costalito img {
+    width: 76%;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+    
+}
+
+.container-padre{
+    margin-bottom: 50px;
+    width:90%;
+    margin:auto;
+
+}
+
+
+.container-img {
+    width: 100%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:12px;
+
+    
+}
+
+ 
+.container-img img{
+    width:100%;
+       
+} 
+
+p {
+    
+    width: 190px;
+    margin: auto;
+    background-color: #eb1c2d;
+    text-align: center;
+    font-weight: 700;
+    font-size: medium;
+    color: white;
+    border-radius: 3px;
+    
+}
+
+/* modal medias */
+
+/* 
+
+.content-slider{
+   
+    height:90vh;
+    display: flex;
+    place-items:center;
+}
+
+.container1{
+    width: 60%;
+    position: relative;
+    display:flex;
+    margin:auto;
+}
+.mySlides-slider{
+    display: none;
+}
+.mySlides img{
+    width: 100%;
+}
+.prev,
+.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height:50px;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6 ease;
+    border-radius:50%;
+    border:none;
+    user-select: none;
+    background-color:#ba007c;
+   
+}
+.next {
+    right: 0;
+    border-radius:50%;
+}
+.prev:hover,
+.next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.elements{
+    text-align: center;
+}
+.quadrate{
+    cursor: pointer;
+    height: 4px;
+    width: 50px;
+    margin: 0 2px;
+    background-color: #717171;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 2px;
+}
+.active, .quadrate:hover{
+    background-color: #fff;
+}
+
+
+.guardarbtn , .cancelbtn {
+    width: 150px;
+    height: 30px;
+    background-color: #a3bd31;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.4;
+    font-weight: bold;
+    justify-items: center;
+    margin-bottom: 8px;
+    
+}
+
+
+.cancelbtn{
+    background-color: #eb1c2d;
+} */
+
+

@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: muli;
+    font-weight: 300;
+    font-style: normal;
+    
+/* 
+    background-image: url('/img/imglogin/Ima_Captura de datos.jpg');
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh; */
+}
+
+
+
+
+/* form-2 */
+
+
+.container-reel-2{
+    width: 65%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+  }
+  
+  .sub-reel-2{
+    width: 100%;
+    
+    
+  
+  }
+  
+  .title-recuadro-2{
+    display: block;
+    margin-bottom: 12px;
+    
+    color: red;
+    font-size: smaller;
+  
+  }
+  .img-2{
+    width: 100%;
+    height: 40vh;
+    
+  }
+  
+  .img-2 img{
+    width: 55%;
+    height: 35vh;
+    position: absolute;
+    display: flex;
+    margin-left: 70px;
+   
+   
+    
+  }
+  
+  .form-2{
+    position: relative;
+    width: 65%;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    margin: auto; 
+    
+    /* border: solid 2px black; */
+    
+    
+  }
+  
+  
+  .formulario{
+  
+    
+  place-content: center;
+  margin: auto;
+  }
+  
+  
+  .telefonos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+  }
+  
+  
+  strong{
+    margin-bottom: 8px;
+  }
+  
+  .telefonos p{
+    display: block;
+    font-size: smaller;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #282a67;
+    margin-bottom: 8px; 
+  
+  }
+  
+  .telefonos  .vacuna{
+    margin-bottom:8px ;
+    margin-top: 8px;
+    
+  }
+  
+  label .obligatorio{
+    display: inline-block;
+    color: red;margin: 0;
+    padding: 0;
+  }
+  
+  .telefonos .nc{
+    margin-bottom: 8px;
+  }
+  
+  /* estilos radio */
+  .formulario .radio label {
+    display: block;
+    cursor: pointer;
+    color: #0a0a0a;
+    position: relative;
+    padding: 5px 15px 0 51px;
+    font-size: 1.4em;
+    border-radius: 5px;
+    
+    
+  }
+    
+  
+    .formulario .radio label:before {
+      content: "";
+      display: inline-block;
+      width: 17px;
+      height: 17px;
+      position: absolute;
+      left: 15px;
+      border-radius: 12%;
+      background: none;
+      border: 1px solid #0e0d0d; 
+    }
+  
+  .formulario input[type="radio"] {
+    display: none; 
+  }
+    .formulario input[type="radio"]:checked + label:before {
+      display: none; 
+    }
+  
+    .formulario input[type="radio"]:checked + label {
+      padding: 5px 10px;
+      background:#282a67;
+      border-radius: 2px;
+      color: #fff; 
+    }
+  
+  
+    /* Estilo radio 2 */
+    .formulario .radio-2 label {
+      display: inline-block;
+      cursor: pointer;
+      color: #0a0a0a;
+      position: relative;
+      padding: 5px 10px 0 31px;
+      font-size: 1.4em;
+      border-radius: 5px;
+      
+      
+    }
+      
+    
+      .formulario .radio-2 label:before {
+        content: "";
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        position: absolute;
+        left: 10px;
+        border-radius: 12%;
+        background: none;
+        border: 1px solid #0e0d0d; 
+      }
+  
+  .telefonos .numero-credito{
+    width: auto;
+    height: 25px;
+    border: none;
+    border-bottom: solid 1px black;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  .telefonos .compania {
+    width: auto;
+    height: 25px;
+    border: none;
+    border-bottom: solid 1px black ;
+    font-size: 1.4rem;
+    font-weight:bold ;
+  
+  }
+  
+  .container-button{
+    width: 150px;
+    height: 20px;
+    margin: auto;
+    
+  }
+  
+  .container-button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+  }
+  
+  button.botton{
+    background-color: red;
+    border: none;
+    width: 150px;
+    height: 20px;
+    color: white;
+  
+  
+    
+  }
+  
+/*   
+
+
+.step2 { 
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    place-content: center;
+    margin: auto;
+}
+
+.container-step2{
+    display: flex;
+    place-items: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #282a67;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    border: solid 2px rgb(206, 205, 205);
+    margin: auto;
+    
+}
+
+div{
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    border: none;
+    height: 20px;
+    background-color:white ;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-radius: 8px;
+}
+p {
+     display: block;
+     
+}
+
+label, p{
+     font-size: 1.4rem;
+     font-weight: 700;
+     margin: 0 8px 8px 0;
+}
+
+label .obligatorio{
+    color: red;
+}
+
+h5{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+button {
+    padding: 0;
+     width: 60px;
+     height: 30px;
+     border: none;
+     background: #a3bd31 ;
+     border-radius: 8px;
+     cursor: pointer;
+     margin-right: 5px;
+}
+
+button:hover {
+    opacity: 0.6;
+} */

@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: muli,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.img-familia {
+    margin-top: 110px;
+    width: 100%;
+    height: 500px;
+}
+
+.img-familia img {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 0;
+}
+
+.container-familia {
+    width: 100%;
+}
+
+.container-parrafos{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    place-items: center;
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #282a67;
+}
+
+p {
+    
+    text-align: justify;
+    font-size: 2.0rem;
+    color: black;
+    font-weight:500;
+}
+
+.container-mv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mision-valores {
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    margin: auto;
+    
+}
+
+.mision-valores img {
+    width: 100%;
+    height: 40vh;
+}
+
+.container-vision{
+    width: 80%;
+    margin:auto;
+}
+.img-vision {
+    width: 100%;
+    display: flex;
+    margin:auto;
+}
+
+.img-vision img {
+    width: 100%;
+
+}

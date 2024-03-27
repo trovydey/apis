@@ -1,0 +1,112 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+
+.content-main{
+    width: 100%;
+    display: flex;
+    place-content: center;
+}
+.content{
+    margin-top: 100px;
+    width: 100%;
+   
+    display: flex;
+    place-content: center;
+    
+}
+
+.sub{
+
+    width: 600px;
+    height: 80px;
+    display: flex;
+    place-items: center;
+        
+    
+}
+.cont-sub{
+    display: flex;
+    place-content: right;
+}
+.label{
+    margin-right: 4px;
+}
+form {
+    display: flex;
+}
+
+.btn-credito{
+    width: 70px;
+    border: none;
+    margin-left: 4px;
+    border-radius: 8px;
+    background-color: rgb(193, 193, 186);
+}
+
+
+.data-zell{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+
+.sub-data-zell{
+    margin-top: 10PX;
+    width: auto;
+    height: auto; 
+    border: 1px solid rgb(203, 202, 202);
+    border-radius: 8px;
+    display: flex;
+    place-content: center;
+
+
+}
+
+
+.info-client{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    gap: 12px;
+    /* justify-items: center; */
+    
+  
+}
+
+span{
+    display: block;
+}
+input{
+    display: block;
+    width: auto;
+}
+
+.content-botones{
+    width: auto;
+    height: auto;
+    display: flex;
+    place-items: center;
+}
+.sub-botones{
+    width: 100%;
+    display: flex;
+
+}
+
+.bt-borde{
+    width: 80px;
+    height: 40px;
+    border: none;
+    margin-right: 8px;
+    border-radius: 4px;
+
+}

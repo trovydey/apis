@@ -1,0 +1,81 @@
+html{
+    font-size: 62.5%;
+    font-family: muli;
+}
+*{
+    box-sizing: border-box;
+    margin:  0;
+    padding: 0;
+}
+
+
+main .main-nav{
+
+    width: 80%;
+    height: 80px;
+    background-color: #029a92;
+    border-radius: 15px;
+}
+
+main .main-nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-left: 150px;
+   margin-top:  150px;
+}
+
+h3{
+    font-size: 2rem;
+    color: white;
+}
+
+.years-nomina{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+    padding-top: 80px;
+    
+   
+  
+}
+section div{
+    background-image: url('../imagenes/Nomina/cuadro\ 2021.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 320px;
+    height: 130px;
+    margin-right: 160px;
+    
+    
+}
+ select{
+    width: 210px;
+    height: 80px;
+    margin-top: 20px;
+    padding-left: 50px;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: rgb(88, 78, 78);
+    border: none;
+    background: none;
+    margin-left:60px ;
+    background-image: url('../imagenes/Nomina/Rectángulo\ 520\ copia.jpg'),
+    linear-gradient(to bottom, #ffffff 0%,#f7f7f7 100%);
+    
+    background-repeat: no-repeat;
+    background-position: right .0em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>LOGIN INTRANET</title>
+
+
+ 
+   <link rel="stylesheet" href="/css/login.css">
+  </head>
+  <body>
+ <main class="bgimg">
+      <section class="container">
+          <div class="container-login">
+                  {{!-- <img src="/img/imglogin/cuadro login.jpg" alt=""> --}}
+                  {{!-- <h2>Iniciar Sesión</h2> --}}
+              <section>
+                  <form id="formLogin" action="/signin" method="POST">
+                  <h2>Usuario</h2>
+                  <input type="email" id="user" name="username" placeholder="  Correo Electronico" required>
+                  <h2>Contraseña</h2>
+                  <input type="password" id="pass" name="password" placeholder="  Contraseña" required><br>
+                  <button class="boton-login" type="submit">Ingresar</button>
+                  </form>
+              </section>
+          </div>
+      </section>
+  
+    </main>
+  
+
+  </body>
+  
+</html>

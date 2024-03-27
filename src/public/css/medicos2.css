@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+  
+  html{
+    font-size: 62.5%;
+    font-family: muli;
+  }
+
+/* form-3 */
+
+
+.container-reel-3{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+  }
+  
+  .sub-reel-3{
+    width: 100%;
+    display: flex;
+    place-content: center;
+    
+    
+  
+  }
+   
+  .img-3 img{
+    width: 55%;
+    height: 30vh;
+    position: absolute;
+    margin: auto;
+   
+   
+    
+  }
+  
+  .form-3{
+    position: relative;
+    width: 80%;
+    height: 28vh;
+    display: flex;
+    place-items: center;
+    margin: auto;
+    /* border: solid 2px black; */
+      
+  }
+  
+  
+  .content-form{
+    width: 80%;
+  }
+
+  .formulario{
+    margin: auto;
+  }
+  
+  .title-recuadro-3{
+    display: block;
+    margin-bottom: 12px;
+    
+    color: red;
+    font-size: smaller;
+  
+  }
+
+  div .border{
+    border: none;
+    border-top: solid 2px rgb(201, 196, 186);
+    height: 30px;
+    
+  }
+  
+  
+  
+  input { 
+    border: none;
+    height: 25px;
+  }
+  
+  .alin{
+    margin: auto;
+  }
+  .sangria{
+    border-left:solid 2px rgb(201, 196, 186); 
+  }
+  
+  div .sangria2{
+    border-bottom:solid 2px rgb(201, 196, 186); 
+  }
+  
+  .cual{
+    border-bottom: solid 2px black;
+  }
+  
+  
+  .sub-content-form h5{
+    display: block;
+    font-size: smaller;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #282a67;
+    margin-bottom: 8px; 
+  
+  }
+  
+  
+  
+  .formulario .radio label:before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 15px;
+    border-radius: 12%;
+    background: none;
+    /* border: 1px solid #0e0d0d;  */
+  }
+  
+  .formulario input[type="radio"] {
+  display: none; 
+  }
+  .formulario input[type="radio"]:checked + label:before {
+    display: none; 
+  }
+  
+  .formulario input[type="radio"]:checked + label {
+    padding: 1px 10px;
+    background:#282a67;
+    border-radius: 2px;
+    color: #fff; 
+    margin-right: 5px;
+  }
+  
+  
+.telefonos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 12px; */
+  } 
+  
+  #obligatorio{
+    display: inline-block;
+    color: red;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  button {
+    width: 150px;
+    height: 20px;
+    background-color: #eb1c2d;
+    color: white;
+    border: none;
+    margin-top: 30px;
+  }
+  
+  .container-button{
+    display: flex;
+    place-content: center;
+  }
+  
+  

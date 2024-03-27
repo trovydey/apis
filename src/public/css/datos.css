@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: muli;
+    font-weight: 300;
+    font-style: normal;
+    
+
+    /* background-image: url('/img/imglogin/Ima_Captura de datos.jpg');
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; */
+}
+
+/* formulario 1 */
+.container-reel-1{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+  }
+  
+  .sub-reel-1{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+  
+  }
+  
+  .title-recuadro{
+    display: block;
+    margin-bottom: 12px;  
+    color: red;
+    font-size: smaller;
+  
+  }
+  
+  .img img{
+    width: 55%;
+    height: 30vh;
+    position: absolute;
+   
+   
+    
+  }
+  
+  .form{
+    position: relative;
+    width: 60%;
+    height: 28vh;
+    display: flex;
+    place-items: center;
+    margin: auto;
+    /* border: solid 2px black; */
+    
+    
+  }
+  
+  
+  
+  
+  form .mar-bott{
+  margin-bottom: 16px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border: none;
+  }
+  
+  form .hijos{
+   
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  form .option{
+    height: 24px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    
+  }
+  
+  form .conyuge{
+    width: auto;
+    height: 24px;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  .telefonos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+  }
+  
+  
+  .otros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    gap: 12px;
+  }
+  
+  .hijos{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  
+  }
+  
+  
+  .telefonos label{
+    display: block;
+    font-size: smaller;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #282a67;
+    margin-bottom: 8px; 
+  
+  }
+  
+  .otros label{
+    font-size: smaller;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #282a67;
+    margin-bottom: 8px; 
+  
+  }
+  
+  .otros label .b{
+    margin-bottom: 8px;
+  }
+  
+  label .obligatorio{
+    display: inline-block;
+    color: red;margin: 0;
+    padding: 0;
+  }
+  
+  .container-button{
+    width: 150px;
+    height: 20px;
+    margin: auto;
+  }
+  
+  .container-button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+  }
+  
+  button.botton{
+    background-color: red;
+    border: none;
+    width: 150px;
+    height: 20px;
+    color: white;
+  
+  
+    
+  }
+/* 
+.step2 { 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    place-content: center;
+    
+    
+}
+.contenedor{
+    display: flex;
+    place-items: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    border: solid 2px rgb(206, 205, 205);
+    margin: auto;
+    
+}
+
+div{
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    border: none;
+    height: 20px;
+    background-color:white ;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-radius: 8px;
+}
+p {
+     display: block;
+     
+}
+
+label, p{
+     font-size: 1.4rem;
+     font-weight: 700;
+     margin: 0 8px 8px 0;
+}
+
+label .obligatorio{
+    color: red;
+}
+
+h5{
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+
+
+button {
+     width: 60px;
+     height: 30px;
+     border: none;
+     background: #a3bd31 ;
+     border-radius: 8px;
+     cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.6;
+} */

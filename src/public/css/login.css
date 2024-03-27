@@ -1,0 +1,81 @@
+
+    html{
+        font-size: 62.5%;
+        font-family: muli;
+    }
+    *{
+        box-sizing: border-box;
+        margin:  0;
+        padding: 0;
+    }
+
+ .bgimg{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    place-content: center;
+    
+} 
+
+.container{
+
+    display: flex;
+    place-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login{
+    width: 300px;
+    height: 280px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}    
+
+img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+h2{
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+
+input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    border:none;
+    border: 2px solid rgb(206, 205, 205);
+    border-radius: 10px;
+    font-size: 1.6rem;
+    text-align: center;
+    
+
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+   
+    cursor: pointer;
+    
+    
+
+}
+
+button:hover {
+     opacity: 0.6;
+}
+
+ 

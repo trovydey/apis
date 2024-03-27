@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: muli;
+}
+
+main .main-nav{
+
+    width: 80%;
+    height: 80px;
+    background-color: rgb(24, 11, 214);
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-bottom: 16px;
+}
+
+.main-nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: auto;
+   padding-top: 20px;
+}
+
+h3{
+    font-size: 2rem;
+    color: white;
+}
+
+
+/* .container { 
+    width: 80%;
+    margin: auto;
+}
+
+.container img{
+    margin: auto;
+    width: 100%;
+} */
+

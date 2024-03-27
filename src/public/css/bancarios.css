@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%;
+    font-family: muli,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  form .bloke {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #282a67;
+  }
+
+  .etiqueta2 {
+    font-weight: 700;
+    font-size: large;
+    font-family: Mulli,sans-serif;
+    /* text-align: center; */
+  }
+  
+.step-5 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .step5 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+   
+  
+  }
+
+  .tamaño2{
+    width: 5px;
+    border: none;
+    background-color: white;
+    color: white;
+}
+  .step5 img{
+    width: 100%;
+  }
+  
+  .container-step5 {
+    margin-top: 30px;
+    width: 80%;
+    position: absolute;
+  }
+  
+  .container-step5 .datos {
+    font-size: 1.8rem;
+    margin-top: 50px;
+    color: #282a67;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .container-step5 .edit {
+    width: 140px;
+    height: 25px;
+    color:white;
+    font-size: 1.4rem;
+    background-color: #eb1c2c;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .container-step5 .datos5 {
+    font-size: 1.4rem;
+    margin-top: 16px;
+    color: #eb1c2d;
+  }
+  .container-step5 form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+  
+  button {
+    width: 80px;
+    height: 20px;
+    background-color: #eb1c2d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+  

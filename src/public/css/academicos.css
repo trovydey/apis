@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: mulli,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.etiqueta2 {
+  font-weight: 700;
+  font-size: large;
+
+}
+
+.container-step2 .datos {
+  font-size: 1.8rem;
+  margin-top: 16px;
+  color: #282a67;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+
+
+
+form .bloke {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #282a67;
+}
+
+
+
+
+
+/* formulario datos academicos */
+
+.step-4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.step4 {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+ 
+
+}
+.step4 img{
+  width: 100%;
+}
+
+.container-step4 {
+  margin-top: 60px;
+  width: 80%;
+  position: absolute;
+}
+
+.container-step4 .datos {
+  margin-top: 50px;
+  font-size: 1.8rem;
+  color: #282a67;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.container-step4 .edit {
+  width: 140px;
+  height: 25px;
+  color:white;
+  font-size: 1.4rem;
+  background-color: #eb1c2c;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.container-step4 .datos4 {
+  font-size: 1.4rem;
+  margin-top: 16px;
+  color: #eb1c2d;
+}
+.container-step4 form {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  
+}
+
+button {
+  width: 80px;
+  height: 20px;
+  background-color: #eb1c2d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+
+
+
+/* formulario datos academicos */

@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: muli;
+}
+main .main-nav{
+
+    width: 73vw;
+    height: 80px;
+    background-color: orange;
+    border-radius: 15px;
+}
+
+main .main-nav{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   margin-left: 200px;
+   margin-top:  150px;
+}
+
+h3{
+    font-size: 2rem;
+    color: white;
+}
+
+.main-container{
+    width: 73vw;
+    height: 200px;
+    margin-top: 50px;
+    display:inline-flex;
+    align-items: center;
+    border: 2px solid orange;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+
+
+}
+
+section div img{
+    width: 150px;
+    height: 150px; 
+    margin-left: 80px;
+    
+}
+
+
+h2{
+
+font-size: 1.8rem;
+align-items: center;
+padding-left: 80px;
+
+}
+
+
+
+section div .button {
+   
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 170px;
+    height: 30px;
+    background-color: orange;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    
+}
+
+
+.main-container .boton-politicas .pdf {
+    color:white;
+}
+
+

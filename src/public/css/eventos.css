@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: muli,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+main .main-nav{
+    margin: auto;
+    width: 74%;
+    height: 80px;
+    background-color: #ba007c;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav {
+    margin-top: 170px;
+    
+}
+
+h3{
+    font-size: 3rem;
+    color: white;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+      
+}
+
+.costalito {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+.container-padre{
+    margin-bottom: 50px;
+    width:40%;
+    margin: auto;   
+
+}
+
+
+.container-img {
+    width: 100%;
+    margin:auto;
+    margin-top: 200px;
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    gap:40px;
+
+    
+}
+
+ 
+.container-img img{
+    width:100%;
+       
+} 
+
+.event-card{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: #282a67 ;
+}
+
+p {
+
+    width: 200px;
+    height: 24px;
+    margin: auto;
+    background-color: #eb1c2d;
+    text-align: center;
+    border-radius: 12px;
+   
+    
+}
+
+ .fotos{  
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    
+}
+
+
